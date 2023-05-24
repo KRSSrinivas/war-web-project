@@ -30,6 +30,18 @@
   		<scope>provided</scope>
   	</dependency>
   </dependencies>
+	<distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>srinivas Releases Nexus Repository</name>
+	      <url>http://52.15.220.225:8081/repository/srinivas-Release/</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>srinivas Snapshot Nexus Repository </name>
+	      <url>http://52.15.220.225:8081/repository/srinivas-Snapshot/</url>
+	    </snapshotRepository>  
+	</distributionManagement>
   <build>
     <plugins>
       <plugin>
